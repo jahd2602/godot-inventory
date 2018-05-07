@@ -1,0 +1,17 @@
+[application]
+
+config/icon = "icon.png"
+config/name = "inventory"
+run/main_scene = "res://demo.tscn"
+
+[autoload]
+
+item_database = "res://item_database.gd"
+
+[importer_defaults]
+
+texture = {
+"flags/filter": true,
+"flags/mipmaps": true
+}
+
